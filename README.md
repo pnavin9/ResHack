@@ -3,7 +3,7 @@
 
 <h3 align="center">
   <a href="https://github.com/pnavin9/ResHack/tree/master/client">View client</a> |
-  <a href="https://github.com/pnavin9/ResHack/tree/master/api">View API</a>
+  <a href="https://github.com/pnavin9/ResHack/tree/master/API">View API</a>
 </h3>
 
 ![Tech logos](https://i.ibb.co/DVFj8PL/tech-icons.jpg)
@@ -89,5 +89,5 @@ This project was developed as part of the Adobe Papyrus Nebule Hackathon by Navi
 
 <h3>
   <a href="https://github.com/pnavin9/ResHack/tree/master/client">View client</a> |
-  <a href="https://github.com/pnavin9/ResHack/tree/master/api">View API</a>
+  <a href="https://github.com/pnavin9/ResHack/tree/master/API">View API</a>
 </h3>
