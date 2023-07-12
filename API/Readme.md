@@ -16,5 +16,4 @@ The API codebase is fairly simple and should be easy enough to understand.
 | `controller/findTemplate.js`         | Searches for the given template from the available templates.                                                                                                                                                               |
 | `controller/reorganiseData.js`       | Reorganises input request to pass to Adobe API                                                                                                                                                                              |
 | `controller/templateGallery.js`      | Fetches all the PDF templates available in the ResumeTemplates                                                                                                                                                              |
-</br>
 
