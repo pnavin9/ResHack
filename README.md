@@ -44,6 +44,7 @@ To run the Reshack web application, please follow these steps:
 
    ```bash
    cd client
+   npm install
    npm start
    ```
 
@@ -51,6 +52,7 @@ To run the Reshack web application, please follow these steps:
 
    ```bash
    cd API
+   npm install
    npm start dev
    ```
 
