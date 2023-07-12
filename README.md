@@ -26,6 +26,7 @@ By leveraging the power of the Adobe API, users can quickly build professional r
 ## Prerequisites
 
 Before running this application, you must obtain the Adobe Generate API. You can access a free trial of the API from the following website: [Adobe Document Services API](https://developer.adobe.com/document-services/apis/doc-generation/).
+you can update API/pdfservices-api-credentials.json with your credentials.
 
 ## Installation
 
