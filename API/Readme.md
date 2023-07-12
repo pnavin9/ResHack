@@ -6,8 +6,6 @@ The API codebase is fairly simple and should be easy enough to understand.
 
 | File or folder                       | Description                                                                                                                                                                                                                 |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-
 | `server.js`                          | The entry file. This is where we initialize express.                                                                                                                                                                        |
 | `routes/generateRoutes.js`           | This is where we define all routes.                                                                                                                                                                                         |
 | `ResumeTemplates`                    | Stores all the Available templates.                                                                                                                                                                                         |
@@ -16,4 +14,3 @@ The API codebase is fairly simple and should be easy enough to understand.
 | `controller/findTemplate.js`         | Searches for the given template from the available templates.                                                                                                                                                               |
 | `controller/reorganiseData.js`       | Reorganises input request to pass to Adobe API                                                                                                                                                                              |
 | `controller/templateGallery.js`      | Fetches all the PDF templates available in the ResumeTemplates                                                                                                                                                              |
-
