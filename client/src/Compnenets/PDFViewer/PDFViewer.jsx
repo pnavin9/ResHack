@@ -44,7 +44,7 @@ const PDFViewer = ({ pdfFile }) => {
         `}
       </style>
       <VStack spacing={2}>
-      <div className='d-flex align-items-center justify-content-center' style={{ height: '100vh', overflow: 'hidden' }}>
+      <div className='d-flex align-items-center justify-content-center' style={{ height: '110vh', overflow: 'hidden' }}>
         <Document file={pdfFile} onLoadSuccess={onDocumentSuccess}>
           <Page pageNumber={currentPage} />
         </Document>
