@@ -1,3 +1,4 @@
+import { Button, HStack, VStack } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 
@@ -8,6 +9,7 @@ import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
  */
 const PDFViewer = ({ pdfFile }) => {
   const [numPages, setNumPages] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
 
   /**
    * Event handler for successful PDF document loading.
@@ -17,6 +19,15 @@ const PDFViewer = ({ pdfFile }) => {
   function onDocumentSuccess({ numPages }) {
     setNumPages(numPages);
   }
+
+  function goToPreviousPage() {
+    setCurrentPage((prevPage) => prevPage - 1);
+  }
+
+  function goToNextPage() {
+    setCurrentPage((prevPage) => prevPage + 1);
+  }
+
 
   return (
     <>
@@ -32,11 +43,31 @@ const PDFViewer = ({ pdfFile }) => {
           }
         `}
       </style>
-      <div className='d-flex align-items-center justify-content-center' style={{ height: '120vh', overflow: 'hidden' }}>
+      <VStack spacing={2}>
+      <div className='d-flex align-items-center justify-content-center' style={{ height: '100vh', overflow: 'hidden' }}>
         <Document file={pdfFile} onLoadSuccess={onDocumentSuccess}>
-          <Page pageNumber={1} />
+          <Page pageNumber={currentPage} />
         </Document>
       </div>
+      <HStack mt={4} justifyContent={'right'} alignItems={'right'}>
+      <Button
+          onClick={goToPreviousPage}
+          disabled={currentPage === 1}
+          className="btn btn-primary mr-2"
+          colorScheme='blue'
+        >
+          Previous Page
+        </Button>
+        <Button
+          onClick={goToNextPage}
+          disabled={currentPage === numPages}
+          className="btn btn-primary"
+          colorScheme='blue'
+        >
+          Next Page
+        </Button>
+      </HStack>
+        </VStack>
     </>
   );
 };
