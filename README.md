@@ -1,4 +1,4 @@
-<h1 align="center">An easy-to-use user friendly resume generator</h1>
+<h1 align="center">An easy-to-use, user friendly resume generator</h1>
 
 
 <h3 align="center">
@@ -6,9 +6,7 @@
   <a href="https://github.com/pnavin9/ResHack/tree/master/API">View API</a>
 </h3>
 
-![Tech logos](https://i.ibb.co/DVFj8PL/tech-icons.jpg)
 
-![App screenshot](https://i.ibb.co/W3qVvCn/jira-optimized.jpg)
 
 ## What is this and who is it for 🤷‍♀️
 
