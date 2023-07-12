@@ -6,7 +6,7 @@
   <a href="https://github.com/pnavin9/ResHack/tree/master/API">View API</a>
 </h3>
 
-[ResHack-Demo.webm](https://github.com/pnavin9/ResHack/assets/106406724/2f9eb74f-cdd9-4bb1-96d2-b1c3c47080a7)
+[ResHackDemo.webm](https://github.com/pnavin9/ResHack/assets/106406724/3a815ba4-7cef-45a6-936f-9df432f42ff6)
 
 
 ## What is this and who is it for 🤷‍♀️
