@@ -76,6 +76,7 @@ There are features missing from this showcase product that should exist in a rea
 - Storing user data and providing user authentication ( This can be done using JWT)
 - Template gallery can be stored and fetched from a cloud service provided instead of storing locally.
 - Responsiveness of the front end can be improved
+- some logics may not work in production environment as I am still learning.
 
 ## License
 
