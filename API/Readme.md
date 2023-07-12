@@ -6,6 +6,8 @@ The API codebase is fairly simple and should be easy enough to understand.
 
 | File or folder                       | Description                                                                                                                                                                                                                 |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Resume Bulder API Specification.pdf`| Documentation of this API                                                                                                                                                                                                   |
+
 | `server.js`                          | The entry file. This is where we initialize express.                                                                                                                                                                        |
 | `routes/generateRoutes.js`           | This is where we define all routes.                                                                                                                                                                                         |
 | `ResumeTemplates`                    | Stores all the Available templates.                                                                                                                                                                                         |
