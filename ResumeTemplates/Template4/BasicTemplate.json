@@ -1,0 +1,43 @@
+{
+  "Name": "Navin",
+  "LastName": "Patwari",
+  "EmailAddress": "p.navin@iitg.ac.in",
+  "PhoneNumber": "+91 8409103059",
+  "LinkedIn": "<a href=\"https://www.linkedin.com\">linkedIn</a>",
+  "JobTitle": "Software Development Engineer",
+  "Summary" : "Something Something \n Something2 Something2",
+  "Skills": [
+    "Java", 
+    "Data Structure", 
+    "ReactJs"
+  ],
+  "Education": [
+    {
+      "SchoolName": "IITG",
+      "Year": "2021-2015",
+      "Description" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words \n which don't look even slightly believable."
+    },
+    {
+      "SchoolName": "College",
+      "Year": "203X-203Y",
+      "Description" : "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
+    }
+  ],
+  "Experience": [
+    {
+      "CompanyName": "Adobe",
+      "Year": "Bachpan se yhi hun",
+      "Description" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    }
+  ],
+  "Achievements": [
+    {
+      "Type" : "Academics",
+      "Description" : "Lorem ipsum dolor sit amet"
+    },
+    {
+      "Type" : "Sports",
+      "Description" : "consectetuer adipiscing elit"
+    }
+  ]
+}

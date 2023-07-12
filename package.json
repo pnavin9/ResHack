@@ -1,0 +1,15 @@
+{
+    "name": "res_hack",
+    "version": "1.0.0",
+    "author": "Ivor Reic",
+    "license": "MIT",
+    "scripts": {
+      "pre-commit": "cd api && npm run dev && cd ../client && npm start",
+      "install-dependencies": "npm install && cd api && npm install && cd ../client && npm install",
+      "build": "cd api && npm run build && cd ../client && npm run build",
+      "start:production": "cd api && npm run start:production && cd ../client && npm run start:production"
+    },
+    "devDependencies": {
+    },
+    "dependencies": {}
+  }
