@@ -54,7 +54,7 @@ To run the Reshack web application, please follow these steps:
    npm start dev
    ```
 
-5. Once both the client and API servers are running, you can access the Reshack application through your web browser.
+5. Once both the client and API servers are running, you can access the Reshack application through your web browser at ```localhost:3000/```
 
 You can refer to the provided curl request samples if you only want to run the API without the client application. The `template_id` parameter represents the name of the template you wish to use.
 
